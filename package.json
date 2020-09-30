@@ -1,0 +1,15 @@
+{
+  "name": "@kwdev2k7/hastefs",
+  "version": "0.0.1",
+  "description": "Some kind of DB hosted on hastebin-like servers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kwdev2k7",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
