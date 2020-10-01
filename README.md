@@ -7,9 +7,9 @@ npm install git+https://github.com/kwdev2k7/hastefs.git
 ```js
 //somewhere in async function...
 let hfs = new (require("@kwdev2k7/hastefs").HasteFS)({
-		host: "http://localhost:7777",//Hastebin host. REQUIRED.
-		base: "qiwymexe", //Url to load inital structure from. NOT REQUIRED.
-		saveinterval: 60000 //interval(in ms) in which HasteFS instance automatically saves data on host. NOT REQUIRED.
+	host: "http://localhost:7777",//Hastebin host. REQUIRED.
+	base: "qiwymexe", //Url to load inital structure from. NOT REQUIRED.
+	saveinterval: 60000 //interval(in ms) in which HasteFS instance automatically saves data on host. NOT REQUIRED.
 });
 await hfs.run();
 hfs.mkdir("/home/");
