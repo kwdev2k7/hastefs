@@ -1,6 +1,6 @@
 {
   "name": "hastefs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Some kind of FS hosted on hastebin-like servers.",
   "main": "index.js",
   "scripts": {
