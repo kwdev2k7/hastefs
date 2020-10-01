@@ -1,7 +1,7 @@
 # HasteFS #
 ## Installation ##
 ```bash
-npm install git+https://github.com/kwdev2k7/hastefs.git
+npm install hastefs
 ```
 ## Usage: ##
 ```js

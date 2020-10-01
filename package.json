@@ -1,7 +1,7 @@
 {
   "name": "hastefs",
-  "version": "0.0.1",
-  "description": "Some kind of DB hosted on hastebin-like servers.",
+  "version": "0.0.2",
+  "description": "Some kind of FS hosted on hastebin-like servers.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,7 @@
   "keywords": [],
   "author": "kwdev2k7",
   "license": "ISC",
+  "repository": "https://github.com/kwdev2k7/hastefs",
   "dependencies": {
     "lodash": "^4.17.20",
     "node-fetch": "^2.6.1"
