@@ -1,5 +1,5 @@
 {
-  "name": "@kwdev2k7/hastefs",
+  "name": "hastefs",
   "version": "0.0.1",
   "description": "Some kind of DB hosted on hastebin-like servers.",
   "main": "index.js",
