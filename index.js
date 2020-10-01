@@ -64,7 +64,7 @@ module.exports = {
         	if(path=="/")return Object.keys(this.data);
         	if(this.resolvePath(this,this.data,path) == null)return false;
         	if(typeof(this.resolvePath(this,this.data,path)) != "object")return false;
-        	return this.resolvePath(this,this.data,path);
+        	return Object.keys(this.resolvePath(this,this.data,path));
         }
     }
 }
